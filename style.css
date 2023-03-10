@@ -1,0 +1,70 @@
+/* GENERAL RULES FOR WHOLE BODY */
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HERO -> img + h1 + 3p */
+#hero {
+    margin: 64px auto;
+    width: 626px;
+}
+
+/* HEADER */
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #3F3D56;
+}
+
+/* span INSIDE h1 -> "destino" */
+h1 span {
+    font-weight: 700;
+    color: #EE24FF;
+}
+
+/* GENERAL RULES FOR PARAGRAPHS */
+p {
+    font-size: 15px;
+    font-style: regular;
+    color: #828282;
+    line-height: 22px;
+    width: 540px;
+    margin: auto;
+}
+
+/* strong INSIDE p -> "pacotes completos" + Flutuar + "preços arrasadores" */
+p strong {
+    color: #3F3D56;
+}
+
+/* "FLUTUAR" ON 2nd PARAGRAPH */
+#flutuar {
+    color: #828282;
+}
+
+/* LINE BEFORE footer */
+.line {
+    width: 391px;
+    border: 1px solid #ECEFF2;
+    margin: 64px auto 16px;
+}
+
+/* footer LINKS */
+a {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration-line: none;
+    color: #3F3D56;
+}
+
+/* SPACE BETWEEN FOOTER LINKS */
+a + a {
+    margin-left: 42px;
+}
+
+/* WAVE img ON footer */
+#footer img {
+    margin-top: 40.83px;
+}
